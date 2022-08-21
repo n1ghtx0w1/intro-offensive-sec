@@ -19,11 +19,11 @@ We will use a command-line application called "GoBuster" to brute-force FakeBank
 
 A terminal, also known as the command-line, allows us to interact with a computer without using a graphical user interface. On the machine, open the terminal using the Terminal icon:  
 
-<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/intro-to-offensive-security.gif" alt="start" width="600" height="300">
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/intro-to-offensive-security.gif" alt="start" width="600" height="100">
 
 >You may use the **AttackBox** using the **Show Split View** and if you're new to TryHackMe then I encourage you to do this. If you're new I would suggest learning more about AttackBox [here](https://help.tryhackme.com/tryhackme-attack-machine)
 
-<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/show-split-view.png" alt="split-view" width="600" height="300">
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/show-split-view.png" alt="split-view" width="600" height="100">
 
 >or connect to your TryHackMe vpn like i've done below using kali linux in a vm:
 
@@ -56,11 +56,11 @@ A terminal, also known as the command-line, allows us to interact with a compute
 
 >You can find the machines IP below:
 
-<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/find-ip.png" alt="find-ip" width="600" height="300">
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/find-ip.png" alt="find-ip" width="600" height="100">
 
 >Copy and paste into your browser to observe the **FakeBank** website
 
-<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/check-ip.png" alt="check-ip" width="600" height="300">
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/check-ip.png" alt="check-ip" width="600" height="100">
 
 ---
 
@@ -76,11 +76,11 @@ A terminal, also known as the command-line, allows us to interact with a compute
 
 >You'll want to use **Show Split View** to connect to the AttacBbox at this point
 
-<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/show-split-view.png" alt="split-view" width="600" height="300">
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/show-split-view.png" alt="split-view" width="600" height="100">
 
 >Look for the wordlist.txt on the desktop
 
-<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/wordlist-file.png" alt="wordlist" width="600" height="300">
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/wordlist-file.png" alt="wordlist" width="600" height="100">
 
 >I copied the contents of the wordlist
 >
@@ -91,7 +91,7 @@ A terminal, also known as the command-line, allows us to interact with a compute
 >Now open the clipboard through the pull out drawer
 >
 
-<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/clipboard.png" alt="check-ip" width="600" height="300">
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/clipboard.png" alt="check-ip" width="600" height="100">
 
 >Now you can create your wordlist.txt file
 
@@ -153,7 +153,7 @@ You should have found a secret bank transfer page that allows you to transfer mo
 
 >I opened another tab and navigated to: **http://machine-ip/bank-transfer**
 
-<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/bank-transfer.png" alt="bank-transfer" width="600" height="300">
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/bank-transfer.png" alt="bank-transfer" width="600" height="100">
 
 This page allows an attacker to steal money from any bank account, which is a critical risk for the bank. As an ethical hacker, you would (with permission) find vulnerabilities in their application and report them to the bank to fix before a hacker exploits them.
 
@@ -161,11 +161,11 @@ Transfer $2000 from the bank account 2276, to your account (account number 8881)
 
 >Now go ahead and make the transfer:
 
-<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/transfer-made.png" alt="bank-transfer" width="600" height="300">
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/transfer-made.png" alt="bank-transfer" width="600" height="100">
 
 >At this point I navigated to the bank account, machine's IP, to obtain the flag to answer the final question
 
-<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/bank-hacked.png" alt="bank-hacked" width="600" height="300">
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/intro-offensive-sec/main/bank-hacked.png" alt="bank-hacked" width="600" height="100">
 
 ## What is Offensive Security
 
